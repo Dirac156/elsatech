@@ -18,8 +18,8 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="#">Digital Market</a>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" href="#"><span>Digital</span> Market</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
               aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -30,18 +30,36 @@
                   <a class="nav-link" href="#footer">Accueil</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#pricing">Se connecter <span>/</span> S'enregistrer</a>
+                  <a class="nav-link" href="#pricing">Se connecter</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#cta">Contactez nous</a>
                 </li>
+
+                <li class="nav-item">
+                  <form action="/register" method="GET">
+                    <button class="btn btn-primary">S'enregistrer</button>
+                  </form>
+                </li>
               </ul>
             </div>
           </nav>
+          <hr id="top-hr">
 
           <!-- jumbotron -->
-          <section>
-
+          <section id="jumbotron">
+            <div class="row">
+              <div class="col-lg-5 col-md-12">
+                <h2>Gagner de l'argen à partir de votre maison</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                
+                  <button class="btn btn-outline-light">Apprenez dès maintenant</button>
+              </div>
+              <div class="offset-1 col-lg-6 col-md-12">
+                <img src="images/trading_device.png" alt="trading devices" height="500px">
+              </div>
+            </div>
           </section>
     </header>
 
