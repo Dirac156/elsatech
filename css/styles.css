@@ -44,3 +44,13 @@ header{
     margin-bottom: 10%;
     line-height:2;
 }
+
+#jumbotron button {
+    padding: 2.5%;
+    font-weight: 500;
+    background-color: blue;
+}
+
+#jumbotron button:hover{
+    color: white;
+}
