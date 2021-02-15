@@ -1,7 +1,17 @@
+
+.white-section h2 {
+    color:#010816;
+}
+
+.white-section i{
+    color:#010816 ;
+    font-size: 2rem;
+}
+
 /* ==================== header ============================ */
 
 header {
-    background-color: #0a043c;
+    background-color: #010816;
     padding: 2% 10%;
     color: #fff;
     font-family: 'Montserrat', sans-serif;
@@ -15,7 +25,7 @@ nav {
 }
 
 .navbar-brand span {
-    color: blue;
+    color: rgb(0, 0, 255);
 }
 
 .navbar-brand {
@@ -75,12 +85,21 @@ nav {
 
 /* ================= main ======================== */
 main {
-    height: 100px;
+    /* height: 100px; */
     background-color: white;
     padding: 2% 10%;
 
 }
 
+.nb-detail{
+    font-size: 2.5rem;
+    color: #010816;
+    font-weight:bold;
+}
+
+.top-section-details p {
+    line-height: 2;
+}
 
 
 
@@ -90,7 +109,7 @@ main {
 .footer-dark {
     padding: 2% 10%;
     color: #f0f9ff;
-    background-color: #0a043c;
+    background-color: #010816;
 }
 
 .footer-dark h3 {
