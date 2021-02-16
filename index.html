@@ -6,37 +6,29 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- Bootstrap link -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
   <!-- own css -->
   <link rel="stylesheet" href="css/styles.css">
 
+  <!-- Font-family -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link
-    href="https://fonts.googleapis.com/css2?family=Benne&family=Montserrat:wght@200;400;500&family=Roboto:wght@300;500&display=swap"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
 
   <!-- Font awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
     integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
 
 
-  <title>Digital Market</title>
+  <title>Elsatech</title>
 </head>
 
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg navbar-dark">
-      <a class="navbar-brand" href="#"><span>Digital</span> Market</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
+    <nav>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav">
+          <li class="logo-li">
+            <a class="logo" href="#"><span>⚡Elsa</span>Tech</a>
+          </li>
           <li class="nav-item">
             <a class="nav-link active" href="#">Accueil</a>
           </li>
@@ -49,14 +41,6 @@
           <li class="nav-item">
             <a class="nav-link" href="contact.html">Contact</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#pricing">Sign in</a>
-          </li>
-          <li class="nav-item">
-            <form action="/register" method="GET">
-              <button class="btn btn-primary">Sign up</button>
-            </form>
-          </li>
         </ul>
       </div>
     </nav>
@@ -65,14 +49,17 @@
     <!-- jumbotron -->
     <section id="jumbotron">
       <div class="row">
-        <div class="col-lg-5 col-md-12 jumbotron-text">
+        <div class="col-lg-5 jumbotron-text">
           <h2>Gagner de l'argen à partir de votre maison</h2>
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
 
-          <button class="btn btn-outline-primary">Apprenez dès maintenant</button>
+          <form action="/register" method="GET">
+            <button class="btn btn-outline-primary text-white mt-5 mb-5">Apprenez dès maintenant</button>
+          </form>
+
         </div>
-        <div class="col-lg-6 col-md-12">
+        <div class="col-lg-6">
           <img class="site-img" src="images/trading_device.png" alt="trading devices" height="500px">
         </div>
       </div>
@@ -80,21 +67,21 @@
   </header>
 
   <main>
-    <!-- top iformations -->
+    <!-- top information -->
     <section class="white-section">
       <div class="row top-section-details mt-5">
-        <div class="col-lg-4 col-md-6 col-12">
+        <div class="col-lg-4">
           <div class="media">
-            <i class="fas fa-dollar-sign fa-3x mr-md-5 mr-5 mt-2 align-self-left"></i>
+            <i class="fas fa-dollar-sign fa-3x mr-5 mt-2 align-self-left"></i>
             <div class="media-body ml-2">
               <p>5.1 Billions USD trade everyday in the market.</p>
             </div>
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 col-12">
+        <div class="col-lg-4">
           <div class="media">
-            <i class="fas fa-users fa-3x mr-md-5 mr-4  mt-2 align-self-left"></i>
+            <i class="fas fa-users fa-3x mr-4  mt-2 align-self-left"></i>
             <div class="media-body">
               <p> 10 Millions people around the world are now online traders.</p>
             </div>
@@ -116,7 +103,7 @@
     <!-- Why choose Forex market -->
     <section class="gray-section">
       <div class="row">
-        <div class="col-lg-6">
+        <div class="col-lg-6 mr-5">
           <h2 class="mt-5 mb-5 text-left">Why choose Forex Market</h2>
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
@@ -135,8 +122,8 @@
     <section class="white-section text-center">
       <h2 class="mt-5 mb-5 text-center">Steps to start trading on Forex Market</h2>
       <div class="row">
-        <div class="col-lg-4 col-md-6 mb-5">
-          <div class="card" style="width: 18rem;">
+        <div class="col-lg-3 mb-5">
+          <div class="card">
             <i class="fas fa-user-circle fa-5x mt-5"></i>
             <div class="card-body">
               <h5 class="card-title">Creat an account</h5>
@@ -146,8 +133,8 @@
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 mb-5">
-          <div class="card" style="width: 18rem;">
+        <div class="col-lg-3 mb-5">
+          <div class="card">
             <i class="fas fa-chalkboard-teacher fa-5x mt-5"></i>
             <div class="card-body">
               <h5 class="card-title">Learn with virtual account</h5>
@@ -157,8 +144,8 @@
           </div>
         </div>
 
-        <div class="col-md-4 mb-5">
-          <div class="card" style="width: 18rem;">
+        <div class="col-lg-3 mb-5">
+          <div class="card">
             <i class="fas fa-search-dollar fa-5x mt-5"></i>
             <div class="card-body">
               <h5 class="card-title">Start trading</h5>
@@ -172,10 +159,10 @@
 
     <!-- Why choose Digital market -->
 
-    <section class="white-section mt-5 mb-5">
+    <section class="white-section mb-5">
       <h2 class="mb-5 text-center">Why choose Digital Market</h2>
       <div class="row">
-        <div class="col-lg-4 col-md-6 col-12 mb-5">
+        <div class="col-lg-4 mb-5">
           <div class="media">
             <i class="fab fa-windows fa-3x align-self-auto mr-5"></i>
             <div class="media-body">
@@ -185,7 +172,7 @@
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 col-12 mb-5">
+        <div class="col-lg-4 mb-5">
           <div class="media">
             <i class="fab fa-stack-overflow fa-3x align-self-auto mr-5"></i>
             <div class="media-body">
@@ -195,9 +182,9 @@
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 col-12 mb-5">
+        <div class="col-lg-4 mb-5">
           <div class="media">
-            <i class="fas fa-shield-alt align-self-auto mr-5 fa-3x"></i>
+            <i class="fas fa-shield-alt fa-3x"></i>
             <div class="media-body">
               <h5 class="mt-0">We are safe</h5>
               <p>Cras sit amet nibh libero, in gravida nulla.</p>
@@ -205,7 +192,7 @@
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 col-12 mb-5">
+        <div class="col-lg-4 mb-5">
           <div class="media">
             <i class="fas fa-gavel align-self-auto mr-5 fa-3x"></i>
             <div class="media-body">
@@ -215,9 +202,9 @@
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 col-12 mb-5">
+        <div class="col-lg-4 mb-5">
           <div class="media">
-            <i class="fas fa-space-shuttle fa-rotate-270 fa-3x mr-5 align-self-auto"></i>
+            <i class="fas fa-space-shuttle fa-rotate-270 fa-3x align-self-auto"></i>
             <div class="media-body">
               <h5 class="mt-0">We are super fast</h5>
               <p>Cras sit amet nibh libero, in gravida nulla.</p>
@@ -225,7 +212,7 @@
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 col-12 mb-5">
+        <div class="col-lg-4 mb-5">
           <div class="media">
             <i class="far fa-star fa-3x mr-5 align-self-auto"></i>
             <div class="media-body">
@@ -247,10 +234,6 @@
           industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
           scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
           electronic typesetting, remaining essentially unchanged.</p>
-
-        <form action="/register" method="GET">
-          <button class="btn btn-outline-primary text-white mt-5 mb-5">Apprenez dès maintenant</button>
-        </form>
       </div>
     </section>
 
@@ -260,48 +243,48 @@
       <h2 class="text-center mb-5">Customer satisfacted</h2>
       <div class="row">
         <div class="col-lg-4 mb-5">
-          <div class="card" style="width: 18rem;">
-            <div class="media">
+          <div class="text-center">
+            <div>
               <i class="fas fa-user-alt fa-3x mr-3 ml-3 mt-3"></i>
-              <div class="media-body mt-3">
-                <h5 class="mt-0">John Simeon</h5>
+              <div class="mt-3">
+                <h5>John Simeon</h5>
                 <p>⭐⭐⭐⭐</p>
               </div>
             </div>
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            <div>
+              <p>Some quick example text to build on the card title and make up the bulk of the card's
                 content.</p>
             </div>
           </div>
         </div>
 
         <div class="col-lg-4 mb-5">
-          <div class="card" style="width: 18rem;">
-            <div class="media">
+          <div class="text-center">
+            <div>
               <i class="fas fa-user-alt fa-3x mr-3 ml-3 mt-3"></i>
-              <div class="media-body mt-3">
-                <h5 class="mt-0">John Simeon</h5>
+              <div class="mt-3">
+                <h5>John Simeon</h5>
                 <p>⭐⭐⭐⭐</p>
               </div>
             </div>
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            <div>
+              <p>Some quick example text to build on the card title and make up the bulk of the card's
                 content.</p>
             </div>
           </div>
         </div>
 
         <div class="col-lg-4 mb-5">
-          <div class="card" style="width: 18rem;">
-            <div class="media">
+          <div class="text-center">
+            <div>
               <i class="fas fa-user-alt fa-3x mr-3 ml-3 mt-3"></i>
-              <div class="media-body mt-3">
-                <h5 class="mt-0">John Simeon</h5>
+              <div class="mt-3">
+                <h5>John Simeon</h5>
                 <p>⭐⭐⭐⭐</p>
               </div>
             </div>
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            <div>
+              <p>Some quick example text to build on the card title and make up the bulk of the card's
                 content.</p>
             </div>
           </div>
@@ -322,7 +305,7 @@
     <footer>
       <div class="">
         <div class="row">
-          <div class="col-sm-6 col-md-3 item">
+          <div class="col-lg-3 item">
             <h3>Services</h3>
             <ul>
               <li><a href="#">Online courses</a></li>
@@ -330,7 +313,7 @@
               <li><a href="#">Trading contract</a></li>
             </ul>
           </div>
-          <div class="col-sm-6 col-md-3 item">
+          <div class="col-lg-3 item">
             <h3>About</h3>
             <ul>
               <li><a href="#">Company</a></li>
@@ -338,10 +321,10 @@
               <li><a href="#">Careers</a></li>
             </ul>
           </div>
-          <div class="col-md-6 item text">
+          <div class="col-lg-6 mt-3 item text">
             <h3>Digital Market</h3>
             <p>Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac sem lacus. Ut vehicula rhoncus
-              elementum. Etiam quis tristique lectus. Aliquam in arcu eget velit pulvinar dictum vel in justo.</p>
+              elementum.</p>
           </div>
           <div class="col item social">
             <a href="#"><i class="fab fa-facebook-f"></i></i></a>
@@ -356,16 +339,6 @@
   </div>
 
 
-
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
-  </script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
-  </script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
-  </script>
 </body>
 
 </html>
