@@ -1,6 +1,15 @@
-body{
-    margin:0;
+body {
+    margin: 0;
     font-family: 'Abel', sans-serif;
+}
+
+.click-me {
+    font-size: 2rem;
+    color: aliceblue;
+}
+
+.black {
+    color: black;
 }
 
 #about-heading-h2 {
@@ -44,6 +53,10 @@ p {
 .footer-dark,
 header {
     padding: 2% 10%;
+}
+
+.contact-section {
+    padding: 2% 8%;
 }
 
 .white-section {
@@ -90,7 +103,7 @@ header {
 }
 
 .logo {
-    margin-right: 49%;
+    margin-right: 45%;
     color: #f0f9ff;
 }
 
@@ -137,18 +150,19 @@ nav {
     align-content: center;
 }
 
-.col{
+.col {
     flex-grow: 1;
     max-width: 100%;
 }
 
-.col-lg-3{
+.col-lg-3 {
     flex-basis: 22%;
     flex-grow: 1;
     /* width: 50%; */
 }
 
-.col-lg-4, .col-4{
+.col-lg-4,
+.col-4 {
     flex-basis: 33%;
 }
 
@@ -172,15 +186,16 @@ nav {
     border-radius: 5px;
     padding-left: 10px;
     padding-right: 10px;
-} 
+}
+
 .btn-outline-primary {
-    background: none; 
+    background: none;
     border: 1px solid #3300FC;
 }
 
 .btn-outline-primary:hover {
     color: white;
-    background-color:#3300FC;
+    background-color: #3300FC;
 }
 
 /* personalized styled */
@@ -221,101 +236,103 @@ nav {
 .top-section-details {
     box-shadow: 5px 5px rgb(247, 245, 245);
 }
-.mt-0{
-    margin-top:0;
+
+.mt-0 {
+    margin-top: 0;
 }
-.mt-1{
-    margin-top:1%;
+
+.mt-1 {
+    margin-top: 1%;
 }
 
 .mt-2 {
     margin-top: 2%;
 }
 
-.mt-3{
+.mt-3 {
     margin-top: 3%;
 }
 
-.mt-4{
+.mt-4 {
     margin-top: 4%;
 }
 
-.mt-5{
+.mt-5 {
     margin-top: 5%;
 }
 
-.mb-5{
+.mb-5 {
     margin-bottom: 5%;
 }
 
-.ml-2{
+.ml-2 {
     margin-left: 2%;
 }
 
-.ml-5{
+.ml-5 {
     margin-left: 5%;
 }
 
-.mr-5{
+.mr-5 {
     margin-right: 5%;
 }
 
-.mr-4{
+.mr-4 {
     margin-right: 4%;
 }
 
 
-.align-self-left{
+.align-self-left {
     text-align: center;
 }
 
-.media{
+.media {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     padding: 5%;
 }
 
-.media-body{
+.media-body {
     order: 1;
     flex-grow: 8;
     flex-basis: 80%;
     text-align: center;
 }
 
-.text-left{
-    text-align:left;
+.text-left {
+    text-align: left;
 }
 
-.text-center{
+.text-center {
     text-align: center;
 }
 
-.card{
-    display:flex;
-    flex-direction:column;
-    border:1px solid #dce0e2;
+.card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #dce0e2;
     border-radius: 5px;
     width: 18rem;
 }
 
-.card-body{
+.card-body {
     padding: 2% 4%;
     text-align: center;
 }
 
-.card-title{
+.card-title {
     font-weight: 600;
     font-size: 1rem;
 }
 
-.card img{
+.card img {
     height: 200px;
 }
 
-.border-0{
+.border-0 {
     border: 0;
 }
 
@@ -388,4 +405,157 @@ nav {
     opacity: 0.3;
     font-size: 13px;
     margin-bottom: 0;
+}
+
+
+/* Contact */
+
+.contact {
+    padding: 10px;
+}
+
+button {
+    overflow: visible;
+}
+
+button,
+select {
+    text-transform: none;
+}
+
+button,
+input,
+select,
+textarea {
+    color: #122293;
+    font: inherit;
+    margin: 0;
+}
+
+input {
+    line-height: normal;
+}
+
+textarea {
+    overflow: auto;
+}
+
+#container {
+    border: solid 3px #122293;
+    margin: 0 auto;
+    max-width: 650px;
+    max-height: 650px;
+    position: relative;
+    width: 100%;
+}
+
+.contact form {
+    padding: 45px;
+}
+
+.contact h2 {
+    color: #122293;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 7px;
+    text-align: center;
+}
+
+.email {
+    float: right;
+    width: 45%;
+}
+
+input[type='text'],
+[type='email'],
+select,
+textarea {
+    background: none;
+    border: none;
+    border-bottom: solid 2px #122293;
+    color: #122293;
+    font-size: 1.000em;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin: 0em 0 1.875em 0;
+    padding: 0 0 0.875em 0;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+input[type='text']:focus,
+[type='email']:focus,
+textarea:focus {
+    outline: none;
+    padding: 0 0 0.875em 0;
+}
+
+.message {
+    float: none;
+}
+
+.name {
+    float: left;
+    width: 45%;
+}
+
+select {
+    background: url('http://web.missouri.edu/~blly4b/ISLT7360/FinalProject/FINAL/icon-ios7-arrow-down-32.png') no-repeat right;
+    -webkit-appearance: none;
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+.subject {
+    width: 100%;
+}
+
+textarea {
+    line-height: 150%;
+    height: 150px;
+    resize: none;
+    width: 100%;
+}
+
+::-webkit-input-placeholder {
+    color: #122293;
+}
+
+#form_button {
+    background: none;
+    border: solid 2px #122293;
+    color: #122293;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    outline: none;
+    padding: 20px 35px;
+    text-transform: uppercase;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.submit {
+    text-align: center;
+}
+
+#form_button:hover {
+    background: #122293;
+    color: #ffffff;
 }

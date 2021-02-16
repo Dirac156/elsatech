@@ -1,0 +1,22 @@
+{
+  "name": "elsatech",
+  "version": "1.0.0",
+  "description": "This is my elsatech website",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dirac156/elsatech.git"
+  },
+  "author": "Dirac Murairi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dirac156/elsatech/issues"
+  },
+  "homepage": "https://github.com/Dirac156/elsatech#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

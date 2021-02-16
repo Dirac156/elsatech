@@ -21,7 +21,7 @@
         integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
 
 
-        <title>Elsatech</title>
+    <title>Elsatech</title>
 </head>
 
 <body>
@@ -30,7 +30,7 @@
             <div class="collapse navbar-collapse">
                 <ul class="navbar-nav">
                     <li class="logo-li">
-                        <a class="logo" href="#"><span>⚡Elsa</span>Tech</a>
+                        <a class="logo" href="/"><span>⚡Elsa</span>Tech</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="index.html">Accueil</a>
@@ -51,16 +51,16 @@
 
         <!-- jumbotron -->
         <section id="jumbotron" class="text-center">
-            <h2>CONTACT</h2>
+            <h2>CONTACTS</h2>
         </section>
     </header>
 
 
     <main>
         <section id="contact">
-            <div class="white-section mt-5 mb-5">
+            <div class="contact-section mt-5 mb-5">
                 <div class="row">
-                    <div class="col-sm-12 col-md-6 col-lg-3 my-5">
+                    <div class="col-lg-3 my-5">
                         <div class="card border-0">
                             <div class="card-body text-center">
                                 <i class="fa fa-phone fa-5x mb-3" aria-hidden="true"></i>
@@ -69,7 +69,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-6 col-lg-3 my-5">
+                    <div class="col-lg-3">
                         <div class="card border-0">
                             <div class="card-body text-center">
                                 <i class="fa fa-map-marker fa-5x mb-3" aria-hidden="true"></i>
@@ -78,7 +78,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-6 col-lg-3 my-5">
+                    <div class="col-lg-3">
                         <div class="card border-0">
                             <div class="card-body text-center">
                                 <i class="fa fa-map-marker fa-5x mb-3" aria-hidden="true"></i>
@@ -87,7 +87,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-6 col-lg-3 my-5">
+                    <div class="col-lg-3">
                         <div class="card border-0">
                             <div class="card-body text-center">
                                 <i class="fa fa-globe fa-5x mb-3" aria-hidden="true"></i>
@@ -99,6 +99,35 @@
                 </div>
             </div>
         </section>
+
+        <div class="contact mb-5">
+            <div id="container">
+              <h2>contact</h2>
+              <form action="/" method="post" id="contact_form">
+                <div class="name">
+                  <input type="text" placeholder="name" name="name" id="name_input" required>
+                </div>
+                <div class="email">
+                  <input type="email" placeholder="e-mail" name="email" id="email_input" required>
+                </div>
+                <div class="subject">
+                  <select placeholder="subject line" name="subject" id="subject_input" required>
+                    <option disabled hidden selected>subject</option>
+                    <option>Just sayin' "hi"!</option>
+                    <option>Quick question.</option>
+                    <option>How about a commission?</option>
+                  </select>
+                </div>
+                <div class="message">
+                  <label for="message"></label>
+                  <textarea name="message" placeholder="message" id="message_input" cols="30" rows="5" required></textarea>
+                </div>
+                <div class="submit">
+                  <input type="submit" value="submit" id="form_button"/>
+                </div>
+              </form>
+            </div>
+            </div>
     </main>
 
 
