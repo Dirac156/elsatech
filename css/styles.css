@@ -1,13 +1,42 @@
+.site-img {
+    width: 100%;
+    height: 100%;
+}
 
-.white-section h2 {
+i{
+    color:blue;
+}
+
+a i{
+    color:white;
+}
+
+p{
+    line-height: 2;
+}
+.white-section, .gray-section, .blue-section{
+    padding: 2% 10%;
+}
+
+.white-section {
+    background-color: white;
+}
+
+.white-section h2, .white-section h5 {
     color:#010816;
 }
 
-.white-section i{
-    color:#010816 ;
-    font-size: 2rem;
+.gray-section {
+    background-color:rgb(243, 239, 239);
+}
+.gray-section h2 {
+    color:#010816;
 }
 
+.blue-section {
+    background-color:#010816;
+    color: white;
+}
 /* ==================== header ============================ */
 
 header {
@@ -72,10 +101,7 @@ nav {
     color: white;
 }
 
-#jumbotron img {
-    width: 100%;
-    height: 100%;
-}
+
 
 .jumbotron-text {
     margin-right: 8%;
@@ -84,15 +110,10 @@ nav {
 
 
 /* ================= main ======================== */
-main {
-    /* height: 100px; */
-    background-color: white;
-    padding: 2% 10%;
 
-}
 
 .nb-detail{
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: #010816;
     font-weight:bold;
 }
