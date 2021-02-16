@@ -186,6 +186,17 @@ nav {
     border-radius: 5px;
     padding-left: 10px;
     padding-right: 10px;
+    text-decoration: none;
+}
+
+.btn-primary{
+    padding: 5%;
+    background-color:#3300FC;
+    margin-bottom: 10%;
+}
+
+.btn-primary:hover{
+    font-weight: bold;
 }
 
 .btn-outline-primary {
@@ -313,7 +324,6 @@ nav {
 .card {
     display: flex;
     flex-direction: column;
-    border: 1px solid #dce0e2;
     border-radius: 5px;
     width: 18rem;
 }
