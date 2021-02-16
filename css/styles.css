@@ -1,3 +1,6 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+}
 #contact .card:hover i,#contact .card:hover h4{
 	color: #3300FC;
 }
@@ -7,7 +10,7 @@
     height: 100%;
 }
 
-i{
+i, .navbar-brand span{
     color: #5126FE;
 }
 
@@ -18,7 +21,8 @@ a i{
 p{
     line-height: 2;
 }
-.white-section, .gray-section, .blue-section{
+
+.white-section, .gray-section, .blue-section, .footer-dark, header{
     padding: 2% 10%;
 }
 
@@ -26,39 +30,24 @@ p{
     background-color: white;
 }
 
-.white-section h2, .white-section h5 {
+.white-section h2, .white-section h5, .gray-section h2 {
     color:#010816;
 }
 
 .gray-section {
     background-color:rgb(243, 239, 239);
 }
-.gray-section h2 {
-    color:#010816;
-}
 
-.blue-section {
+.blue-section, header {
     background-color:#010816;
     color: white;
 }
 /* ==================== header ============================ */
 
-header {
-    background-color: #010816;
-    padding: 2% 10%;
-    color: #fff;
-    font-family: 'Montserrat', sans-serif;
-}
-
 /* navbar */
 
 nav {
     font-size: 1.5rem;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.navbar-brand span {
-    color: #5126FE;
 }
 
 .navbar-brand {
@@ -76,7 +65,7 @@ nav {
 }
 
 #top-hr {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.883);
 }
 
 /* jumbotron */
@@ -98,14 +87,14 @@ nav {
 #jumbotron button {
     padding: 2.5%;
     font-weight: 500;
-    background-color: #5126FE;
+    color:white;
+    /* background-color: #5126FE; */
 }
 
 #jumbotron button:hover {
     color: white;
+    background-color: none;
 }
-
-
 
 .jumbotron-text {
     margin-right: 8%;
@@ -115,11 +104,8 @@ nav {
 
 /* ================= main ======================== */
 
-
-.nb-detail{
-    font-size: 2rem;
-    color: #010816;
-    font-weight:bold;
+.top-section-details{
+    box-shadow: 5px 5px rgb(247, 245, 245);
 }
 
 
@@ -130,7 +116,6 @@ nav {
 
 /* ============== Footer ===================*/
 .footer-dark {
-    padding: 2% 10%;
     color: #f0f9ff;
     background-color: #010816;
 }
